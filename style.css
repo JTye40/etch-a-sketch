@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  font-family: Luminari;
+}
+
+p {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  font-family: Luminari;
+}
+
+#headline-container {
+  display: flex; 
+  justify-content: space-around;
+  align-items: end;
+  gap: 4px
+}
+
+.button-styles {
+  width: 130px;
+  background: slategray;
+  color: white;
+  border: outset 2px white;
+  border-radius: 10px;
+}
+
+#headline {
+  font-size: 48px;
+  margin-bottom: -16px;
+}
+
+#border-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 10, 10);
+  min-width: 250px;
+  height: 600px;
+  margin: 10px;
+  border: solid 3px rgb(239, 63, 63);
+  border-radius: 20px;
+}
+
+#screen {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  margin: 48px;
+  border: solid 3px rgb(239, 63, 63);
+}
+
+#knob-container {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.knobs {
+  height: 80px;
+  min-width: 80px; 
+  background: white;
+  margin-bottom: 30px;
+  border: outset 3px white;
+  border-radius: 48px;
+}
+
+#left-knob {margin-left: 24px;}
+
+#right-knob {margin-right: 24px;}
+
+.screen-grid {
+  flex-shrink: 1;
+  background: white;
+  outline: lightgray solid 1px;
+  ;
+};  
